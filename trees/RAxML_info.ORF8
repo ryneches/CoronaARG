@@ -1,0 +1,77 @@
+An alignment file with undetermined columns and sequence duplicates removed has already
+been printed to file data/refcov89_ORF8_aln.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+Alignment has 1 completely undetermined sites that will be automatically removed from the input data
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 276 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 32.95%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 276
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-AVX -m GTRGAMMA -s data/refcov89_ORF8_aln.fasta -n ORF8 -p 1024 -T 2 --silent 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.278 0.187 0.207 0.328 
+
+Inference[0]: Time 13.357570 GAMMA-based likelihood -10314.008645, best rearrangement setting 15
+alpha[0]: 0.619657 rates[0] ac ag at cg ct gt: 3.495210 6.225771 2.254111 1.679645 8.588127 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -10313.997728 tree written to file /home/russell/Projects/CoronaARG/RAxML_result.ORF8
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -10313.997728 .... 
+
+Final GAMMA-based Score of best tree -10313.997728
+
+Program execution info written to /home/russell/Projects/CoronaARG/RAxML_info.ORF8
+Best-scoring ML tree written to: /home/russell/Projects/CoronaARG/RAxML_bestTree.ORF8
+
+Overall execution time: 20.901636 secs or 0.005806 hours or 0.000242 days
+

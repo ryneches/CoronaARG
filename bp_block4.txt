@@ -1,0 +1,10 @@
+# sequence data for 6 genes/partitions
+align = data/refcov89_ORF6_aln.fasta
+align = data/refcov89_ORF7a_aln.fasta
+align = data/refcov89_ORF7b_aln.fasta
+align = data/refcov89_ORF8_aln.fasta
+align = data/refcov89_N_aln.fasta
+align = data/refcov89_ORF10_aln.fasta
+
+# output directories
+name = block_4_analysis
