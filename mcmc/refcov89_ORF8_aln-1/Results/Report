@@ -1,0 +1,108 @@
+   iter = [increasing]
+
+   prior ~ 392.7  (335.6,441.4) @ 95%
+       t @ 122.2   Ne = 96   burnin = 108
+
+
+   likelihood ~ -1.125e+04  (-1.128e+04,-1.122e+04) @ 95%
+            t @ 55   Ne = 213   burnin = 44
+
+
+   posterior ~ -1.086e+04  (-1.091e+04,-1.081e+04) @ 95%
+           t @ 40.49   Ne = 290   burnin = 108
+
+
+   prior_A ~ -298.1  (-338.3,-266.2) @ 95%
+         t @ 150.8   Ne = 77   burnin = 689
+
+
+   |A| ~ 383  (354,415) @ 95%
+     t @ 20.02   Ne = 587   burnin = 470   [integer] 
+
+
+   #indels ~ 26  (23,30) @ 95%
+         t @ 170.8   Ne = 68   burnin = 601   [integer] 
+
+
+   |indels| ~ 233  (187,285) @ 95%
+          t @ 8.3   Ne = 1416   burnin = 120   [integer] 
+
+
+   #substs ~ 2517  (2492,2538) @ 95%
+         t @ 60.64   Ne = 193   burnin = 120   [integer] 
+
+
+   P1/likelihood ~ -1.125e+04  (-1.128e+04,-1.122e+04) @ 95%
+               t @ 55   Ne = 213   burnin = 44
+
+
+   P1/prior_A ~ -298.1  (-338.3,-266.2) @ 95%
+            t @ 150.8   Ne = 77   burnin = 689
+
+
+   P1/|A| ~ 383  (354,415) @ 95%
+        t @ 20.02   Ne = 587   burnin = 470   [integer] 
+
+
+   P1/#indels ~ 26  (23,30) @ 95%
+            t @ 170.8   Ne = 68   burnin = 601   [integer] 
+
+
+   P1/|indels| ~ 233  (187,285) @ 95%
+             t @ 8.3   Ne = 1416   burnin = 120   [integer] 
+
+
+   P1/#substs ~ 2517  (2492,2538) @ 95%
+            t @ 60.64   Ne = 193   burnin = 120   [integer] 
+
+
+   Scale[1]*|T| ~ 12.38  (11.82,12.94) @ 95%
+              t @ 2.244   Ne = 5238   burnin = 31
+
+
+   |T| ~ 1.056  (0.8457,1.264) @ 95%
+     t @ 1   Ne = 11755   burnin = 56
+
+
+   Heat.beta = 1
+
+   Scale[1] ~ 11.71  (9.515,14.27) @ 95%
+          t @ 1.027   Ne = 11444   burnin = 59
+
+
+   tn93:pi[A] ~ 0.3071  (0.2823,0.3318) @ 95%
+            t @ 6.696   Ne = 1755   burnin = 74
+
+
+   tn93:pi[C] ~ 0.2203  (0.2027,0.2381) @ 95%
+            t @ 6.094   Ne = 1929   burnin = 125
+
+
+   tn93:pi[G] ~ 0.1897  (0.1728,0.2077) @ 95%
+            t @ 6.783   Ne = 1732   burnin = 292
+
+
+   tn93:pi[T] ~ 0.2829  (0.2588,0.3057) @ 95%
+            t @ 9.538   Ne = 1232   burnin = 345
+
+
+   tn93:kappaPyr ~ 2.826  (2.488,3.168) @ 95%
+               t @ 4.096   Ne = 2869   burnin = 172
+
+
+   tn93:kappaPur ~ 2.083  (1.834,2.359) @ 95%
+               t @ 4.765   Ne = 2466   burnin = 118
+
+
+   rs07:mean_length ~ 8.725  (5.515,12.67) @ 95%
+                  t @ 3.206   Ne = 3666   burnin = 98
+
+
+   rs07:log_rate ~ -5.427  (-5.859,-5.04) @ 95%
+               t @ 21.63   Ne = 543   burnin = 79
+
+
+ Ne  >= 68.84    (#indels)
+ min burnin <= 689    (prior_A)
+
+Increasing: iter
